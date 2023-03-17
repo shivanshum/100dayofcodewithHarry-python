@@ -9,6 +9,8 @@ timestamp = time.strftime('%S')
 print(timestamp)
 # hour = int(input("Enter time in 24 hrs"))
 hour = int(time.strftime('%H'))
+print(type(hour))
+print(hour,"hours")
 if(hour >= 4 and  hour <= 12):
   print("Good Morning Sir!")
 elif(hour >12 and hour <=18):
